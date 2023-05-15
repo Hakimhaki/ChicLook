@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".signup"
+    android:background="@drawable/backgroud2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="60dp"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="@string/create" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"/>
+
+
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#090909"
+        android:text="@string/sign_up"
+        android:textColor="#F8F5F5"
+        app:cornerRadius="20dp"
+        android:onClick="onClick"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up With"
+        android:textColor="#090909"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+      />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/google"
+
+        />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/face"
+         />
+
+</LinearLayout>
+
+
+</LinearLayout>
